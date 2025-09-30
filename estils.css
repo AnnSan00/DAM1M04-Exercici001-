@@ -6,13 +6,24 @@ p {
     font-size: 32px;
     text-decoration: underline;
 }
+
 .text_important {
     color: red;
     font-weight: bold;
 }
+
+/*Colors*/
 .vermell {
     color: red;
 }
+.verd {
+    color: green;
+}
+.blau {
+    color: blue;
+}
+
+/*Tipus de lletra */
 .gran {
     font-size: 24px;
 }
@@ -23,16 +34,17 @@ p {
     text-decoration: underline;
 }
 
+/*Enllaç*/
 a:hover{
     color: orange;
     cursor: pointer;
 }
-
+/* Pseudoclasse*/
 p::before{
   content: "👉 ";
   color: blue;
 }
-
+/*Pseudoelemnts*/
 p::after{
     content: "✔";
     color: green;
