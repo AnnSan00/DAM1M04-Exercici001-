@@ -16,7 +16,6 @@ p {
 .gran {
     font-size: 24px;
 }
-
 .negreta{
     font-weight: bold;
 }
@@ -24,12 +23,17 @@ p {
     text-decoration: underline;
 }
 
-
 a:hover{
     color: orange;
     cursor: pointer;
 }
-a::before{
+
+p::before{
   content: "👉 ";
-  color: green;
+  color: blue;
+}
+
+p::after{
+    content: "✔";
+    color: green;
 }
